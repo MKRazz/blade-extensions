@@ -1,7 +1,7 @@
 {
-    "name": "MKRazz/blade-extensions",
+    "name": "mkrazz/blade-extensions",
     "description": "Laravel package providing additional Blade extensions: foreach (with $loop data like twig), break, continue, set,array (multiline), etc",
-    "homepage": "https://github.com/MKRazz/blade-extensions",
+    "homepage": "https://github.com/mkrazz/blade-extensions",
     "keywords": [
         "loop",
         "extensions",
@@ -21,16 +21,16 @@
     "require": {
         "php": ">=5.4.0",
         "illuminate/support": "~5.0",
-        "MKRazz/support": "1.0.*"
+        "mkrazz/support": "1.0.1"
     },
     "repositories": {
         "support": {
             "type": "package",
             "package": {
-                "name": "MKRazz/support",
-                "version": "1.0.0",
+                "name": "mkrazz/support",
+                "version": "1.0.1",
                 "source": {
-                    "url": "https://github.com/MKRazz/support.git",
+                    "url": "https://github.com/mkrazz/support.git",
                     "type": "git",
                     "reference": "origin/master"
                 }
