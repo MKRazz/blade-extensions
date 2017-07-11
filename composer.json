@@ -23,6 +23,20 @@
         "illuminate/support": "~5.0",
         "MKRazz/support": "1.0.*"
     },
+    "repositories": {
+        "support": {
+            "type": "package",
+            "package": {
+                "name": "MKRazz/support",
+                "version": "1.0.0",
+                "source": {
+                    "url": "https://github.com/MKRazz/support.git",
+                    "type": "git",
+                    "reference": "origin/master"
+                }
+            }
+        }
+    },
     "suggest": {
         "raveren/kint": ">0.9.1",
         "illuminate/html": "~5.0",
